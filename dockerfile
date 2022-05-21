@@ -1,5 +1,3 @@
-
-   
 FROM ubuntu:latest
 
 # update
