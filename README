@@ -1,8 +1,8 @@
 # 実行するとき
-このファイルに移動した後 docker compose up
+このフォルダに移動した後 docker compose up
 
 # 終了するとき
-このファイルに移動した後 docker copose stop
+このフォルダに移動した後 docker copose stop
 
 
 #　コンテナとファイルをやりとりする方法
