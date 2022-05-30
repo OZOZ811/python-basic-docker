@@ -1,5 +1,6 @@
 # 実行するとき
-このフォルダに移動した後 docker compose up
+このフォルダに移動した後 docker compose up　を実行した後、
+chromeのurl検索する所で　localhost:8888/lab　と検索する。
 
 # 終了するとき
 このフォルダに移動した後 docker copose stop
