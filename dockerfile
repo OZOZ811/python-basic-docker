@@ -10,9 +10,9 @@ vim
 WORKDIR /opt
 # download anaconda package and install anaconda
 # archive -> https://repo.continuum.io/archive/
-RUN wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh && \
-sh /opt/Anaconda3-2019.10-Linux-x86_64.sh -b -p /opt/anaconda3 && \
-rm -f Anaconda3-2019.10-Linux-x86_64.sh
+RUN wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh && \
+sh /opt/Anaconda3-2022.05-Linux-x86_64.sh -b -p /opt/anaconda3 && \
+rm -f Anaconda3-2022.05-Linux-x86_64.sh
 # set path
 ENV PATH /opt/anaconda3/bin:$PATH
 
